@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Creative Web Playground ✨</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>🌈 My Creative Web Playground ✨</header>
+
+  <div class="container">
+    <!-- Contact Form -->
+    <div class="card yellow-card">
+      <h2>📬 Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <input type="text" id="message" placeholder="Your Message" required />
+        <button type="submit">Send 💌</button>
+      </form>
+    </div>
+
+    <!-- To-Do List -->
+    <div class="card">
+      <h2>📝 My To-Do List</h2>
+      <div class="todo-input">
+        <input type="text" id="taskInput" placeholder="Enter task 🧠" />
+        <button onclick="addTask()">Add ➕</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="card yellow-card">
+      <h2>🖼️ Image Gallery</h2>
+      <div class="gallery">
+        <img src="https://i.pinimg.com/736x/ba/0d/d7/ba0dd79fa7e96564a5d61e838acabfb0.jpg?text=Image+1" alt="Image 1">
+        <img src="https://www.shutterstock.com/image-vector/indian-woman-dancing-traditional-dress-600nw-2457790329.jpg?text=Image+2" alt="Image 2">
+        <img src="https://i.pinimg.com/1200x/24/66/a1/2466a17b21e6371ebc7a83ee36f6150e.jpg?text=Image+3" alt="Image 3">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
